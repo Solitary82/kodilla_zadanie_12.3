@@ -24,8 +24,8 @@ $(function() {
             $('<li>').text(item.capital).appendTo(countriesList);
             $('<li>').text(item.demonym).appendTo(countriesList);
             $('<li>').text(item.area).appendTo(countriesList);
-             $('<li>').text(item.population).appendTo(countriesList);
-             $('<li>').text(item.currencies).appendTo(countriesList);
+            $('<li>').text(item.population).appendTo(countriesList);
+            $('<li>').text(item.currencies).appendTo(countriesList);
         });
     }
 
