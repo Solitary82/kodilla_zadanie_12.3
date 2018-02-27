@@ -3,6 +3,9 @@ $(function() {
     var url = 'https://restcountries.eu/rest/v1/name/';
     var countriesList = $('#countries');
     var flag = $('.flag');
+    var million = ' million';
+    var squareKm = ' km2';
+    
 
     $('#search').click(searchCountries);
 
@@ -23,8 +26,8 @@ $(function() {
             $('<li>').text('Country name').text(item.name).appendTo(countriesList);
             $('<li>').text(item.capital).appendTo(countriesList);
             $('<li>').text(item.demonym).appendTo(countriesList);
-            $('<li>').text(item.area).appendTo(countriesList);
-            $('<li>').text(item.population).appendTo(countriesList);
+            $('<li>').text(item.area + squareKm).appendTo(countriesList);
+            $('<li>').text(item.population + million).appendTo(countriesList);
             $('<li>').text(item.currencies).appendTo(countriesList);
         });
     }
