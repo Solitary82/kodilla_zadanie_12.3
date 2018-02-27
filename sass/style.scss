@@ -7,3 +7,62 @@ body {
     margin: 0;
     border: 0;
 }
+
+h1 {
+    margin: 0;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+button {
+    margin-top: 20px;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    &:hover {
+        cursor: pointer;
+        background-color: white;
+        color: green;
+    }
+}
+
+.container {
+    width: 700px;
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+    background-color: cyan;
+}
+
+li {
+    list-style-type: none;
+    margin-right: 40px;
+}
+
+.top {
+    background-color: khaki;
+}
+
+.bottom {
+    background-color: cornsilk;
+}
+
+.flag img {
+    text-align: center;
+}
+
+table {    
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    
+    tr, td {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    }
+}
+
